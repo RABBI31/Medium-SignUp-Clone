@@ -1,9 +1,17 @@
-
+.container{
+   
+    align-items: center;
+    border: solid 2px;
+}
 .a{
-   box-sizing: border-box;
+   box-sizing: inherit;
+   border-width: 2px;
+   border-style: inset;
+   border-color: initial;
    padding-bottom: 80px;
+   border-image: initial;
    padding-top: 20px;
-    border:  2px;
+    border: 2px;
 }
 .a h1{
     

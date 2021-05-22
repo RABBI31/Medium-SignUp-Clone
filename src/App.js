@@ -30,10 +30,10 @@ class App extends Component{
     }
     render(){
         return(
-            <div className='a ui container'>
+            <div className='a container'>
                 <div className='ui inverted segment'>
                 <h1>Join Medium</h1>
-                <div className='ui segment'>
+                <div >
                     {this.state.isSignedIn ?(
                     <span>
                         <div>Signed In </div>
